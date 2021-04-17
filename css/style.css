@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header start */
+header{
+    border-bottom: 1px solid #585454
+}
+.heaader_content{
+    width: 90%;
+    margin-left: 5%;
+    overflow: hidden;
+}
+.logo{
+width: 10%;
+float: left;
+}
+.logo img{
+width: 80%;
+}
+nav{
+    width: 35%;
+    float: right;
+}
+nav ul{
+
+list-style: none;
+
+overflow: hidden;
+}
+nav ul li{
+
+float: left;
+
+font-family: capitaliz;
+
+margin-right: 20px;
+
+font-size: 25px;
+
+text-transform: capitalize;
+
+margin-top: 10px;
+}
+/* header end */
+
+
+/* Content part start */
+
+.content{text-align: center;width: 60%;margin-left: 21%;}
+.content h1{
+
+font-size: 40px;
+
+color: #4b4bff;
+
+margin-top: 10px;
+}
+.content p{
+
+font-size: 20px;
+
+margin-top: 18px;
+}
+.content img{
+    
+width: 70%;
+    
+margin-top: 18px;
+}
+.content h1:first-child{
+    color: black;
+    margin-top: 40px;
+}
+.main_content{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.left_content{
+
+width: 48%;
+
+float: left;
+
+text-align: right;
+}
+.left_content h1{
+
+font-size: 70px;
+
+color: red !important;
+
+}
+.left_content p{
+
+font-size: 23px;
+
+margin-top: 25px;
+}
+.right_content{
+
+width: 48%;
+
+float: right;
+
+text-align: left;
+}
+.right_content h1{
+    
+font-size: 55px;
+    
+color: #21033d !important;
+}
+/* Content part end/*
+
+
+/* feature part start here */
+
+.feature{
+
+overflow: hidden;
+
+width: 90%;
+
+margin: auto;
+
+margin-top: 50px;
+
+margin-bottom: 40px; 
+} 
+.feature_one{
+
+width: 30%;
+
+float: left;
+
+text-align: center;
+
+background: #FEECEC;
+
+padding: 40px 10px;
+}
+.feature_one h3{
+
+text-align: left;
+
+color: #21033d;
+}
+.feature_one p{
+
+text-align: left;
+
+color: #21033d;
+}
+.feature_two{
+
+width: 30%;
+
+float: left;
+
+margin-left: 3%;
+
+margin-right: 2%;
+
+text-align: center;
+
+padding: 40px 10px;
+
+background: #E9FAF4;
+}
+.feature_two h3{
+
+text-align: left;
+
+color: #21033d;
+}
+.feature_two p{
+
+color: #21033d;
+
+text-align: left;
+}
+.feature_three{
+
+width: 30%;
+
+float: right;
+
+text-align: center;
+
+padding: 40px 10px;
+
+background: #FFF8E8;
+}
+.feature_three h3{
+
+text-align: left;
+
+color: #21033d;
+}
+.feature_three p{
+
+text-align: left;
+}
+
+/* feature part end here */
+
+/*footer part start*/
+
+footer{
+
+background: #3e3ef0;
+
+text-align: center;
+
+padding: 16px;
+
+}
+footer p{
+    
+color: #ccc7c7;
+display: inline;
+}
+footer h3{
+color: white;    
+display: inline;
+}
+/*footer part end*/;
